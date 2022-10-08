@@ -1,0 +1,24 @@
+
+.navbar_logo{
+  font-size: 9vw;
+}
+
+.navbar_input{
+  border: none;
+  outline: none;
+  font-size: 4.5vw;
+}
+
+.navbar_search_button{
+  background-color: #f7d354;
+  border: 2px solid #f7d354;
+  color: black;
+  cursor: pointer;
+  font-size: 5vw;
+  transition: 0.5s;
+}
+
+.navbar_search_button:hover{
+  background-color: transparent;
+  color: #f7d354;
+}

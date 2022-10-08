@@ -1,11 +1,14 @@
 import React from "react";
-import "./style.css";
+import { Outlet } from "react-router-dom";
+import Navbar from "./components/Navbar.js";
+import "./app.css";
 
 export default function App() {
   return (
     <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
+      <Navbar />
+      <Outlet />
     </div>
   );
 }
+

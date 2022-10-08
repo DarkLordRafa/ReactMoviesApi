@@ -1,0 +1,49 @@
+
+.movie_cards img{
+  border-radius: 20px;
+  width: 100%;
+  font-size: 5vw;
+}
+
+.movie_cards_star_icon{
+  font-size: 5vw;
+}
+
+.movie_cards_query_text{
+  color: #f7d354;
+}
+
+.movie_card{
+  width: 100%;
+  margin: auto;
+  background-color: #111;
+}
+
+.movie_container div{
+  width: 40%;
+  margin-bottom: 10vw;
+}
+
+.movie_card h4{
+  font-size: 5vw;
+  min-height: 25vw;
+}
+
+.movie_card a{
+  background-color: #f7d354;
+  border: 2px solid #f7d354;
+  color: black!important;
+  font-size: 5vw;
+  transition: 0.5s;
+  text-align: center;
+  font-weight: bold;
+}
+
+.movie_card a:hover{
+  background-color: transparent;
+  color: #f7d354!important;
+}
+
+.movie_card img,.movie_card h4,.movie_card p{
+  margin-bottom: 5vw;
+}

@@ -1,0 +1,38 @@
+
+.movie_page{
+  margin: 10vw auto;
+  padding-bottom: 20vw;
+  width: 90vw;
+}
+  
+.movie_page h4{
+  font-size: 7vw;
+  min-height: auto;
+}
+  
+.movie_page img{
+  border-radius: 20px;
+  width: 100%;
+  margin-bottom: 10vw!important;
+}
+
+.movie_page p{
+  font-size: 5.5vw;
+}
+
+.tagline{
+  font-size: 6vw;
+}
+
+.movie_info h5{
+  font-size: 5.5vw;
+  color: #f7d354;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.movie_info p{
+  font-size: 5vw;
+}
+
