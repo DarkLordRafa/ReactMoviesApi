@@ -39,7 +39,7 @@ const Movie = () =>{
       {movie && (
         <>
           <MovieCard movie ={movie} showLink = {false} />
-          <span className="tagline" mb-3 d-inline-block`}>{movie.tagline}</span>
+          <span className="tagline mb-3 d-inline-block">{movie.tagline}</span>
           <div className="movie_info">
             <h5><BsWallet2 className="me-2" />Orçamento: </h5>
             <p>{formatCurrency(movie.budget)}</p>

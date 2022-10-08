@@ -9,7 +9,7 @@ import "../css/movie_cards.css";
 const MovieCard = ({movie, showLink = true}) =>{
 
   return(
-    <div className="movie_card" d-flex flex-column justifiy-content-center align-items-center`}>
+    <div className="movie_card d-flex flex-column justifiy-content-center align-items-center">
         <img src={movieImageUrl + movie.poster_path} alt={movie.title}>
         </img>
         <h4>{movie.title}</h4>
