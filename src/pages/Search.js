@@ -29,7 +29,7 @@ const Search = () =>{
     <div className="movie_cards container d-flex flex-column justify-content-center align-items-center pb-4">
       <h2 className="mb-4">Resultados para: <span className="movie_cards_query_text">{query}</span></h2>
       <div className="movie_container d-flex justify-content-space-between align-items-center flex-wrap">
-        {movies.length === 0 && <p>Carregando...</p>}
+        {movies.length === 0 && <p className="loading">Carregando...</p>}
         {movies.length > 0 && movies.map((movie) => <MovieCard key ={movie.id} movie={movie} /> )}
       </div>
     </div>

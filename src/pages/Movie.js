@@ -35,7 +35,7 @@ const Movie = () =>{
 
   return(
     <div className="movie_page">
-      {!movie && (<p>Carregando...</p>)}
+      {!movie && (<p className="loading">Carregando...</p>)}
       {movie && (
         <>
           <MovieCard movie ={movie} showLink = {false} />
