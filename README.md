@@ -6,7 +6,9 @@
     Aplicação de filmes que consome API da TMDB
     <br>
 		A aplicação exibe na Homepage os filmes mais votados da TMDB
+    <br>
 		A página de pesquisa retorna os filmes armazenados na API de acordo com a pesquisa feita pelo usuário
+    <br>
 		E além disso cada filme também tem sua página individual com mais detalhes e informações
 		<br>
 		Nesse projeto eu vi mais sobre o ReactJs e seus hooks, o React routes e também a lib React-icons
