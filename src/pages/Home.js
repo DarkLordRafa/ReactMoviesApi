@@ -1,6 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import { generalApi, apiKey } from "../services/api.js";
+import MovieCard from "../components/MovieCard.js";
 import "../css/movie_cards.css";
 import "../css/movie.css";
 
