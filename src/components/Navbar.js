@@ -23,7 +23,7 @@ function Navbar(){
         <Link to ="/" className="navbar_logo d-flex align-items-center"><BiCameraMovie className="me-1" />TheMovies</Link>
       </h2>
       <form onSubmit={handleSubmit} className="d-flex">
-        <input value={search} onChange={(e) =>{setSearch(e.target.value);}} type="text" placeholder="Pesquisar filme" className="navbar_input rounded p-1 pe-3 me-2"}></input>
+        <input value={search} onChange={(e) =>{setSearch(e.target.value);}} type="text" placeholder="Pesquisar filme" className="navbar_input rounded p-1 pe-3 me-2"></input>
         <button type="submit" className="d-flex flex-column align-items-center justify-content-center p-2 rounded navbar_search_button">
           <BiSearchAlt2 />
         </button>
