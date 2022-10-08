@@ -9,6 +9,10 @@
   font-size: 5vw;
 }
 
+.movie_cards h2{
+	font-size: 6vw;
+}
+
 .movie_cards_query_text{
   color: #f7d354;
 }
